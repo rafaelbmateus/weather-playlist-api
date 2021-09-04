@@ -1,0 +1,22 @@
+openapi: 3.0.0
+info:
+  title: give-me-a-song-to-go
+  description: RESTful API to suggestion a playlist songs according to the current temperature
+  version: 1.0.0
+servers:
+  - url: localhost:3000
+    description: localhost
+paths:
+  /playlist:
+    get:
+      summary: Returns a playlist.
+      description: Returns a playlist with only track names suggestion according to the query filter.
+      responses:
+        '200':
+          description: A JSON array of track names.
+          content:
+            application/json:
+              schema: 
+                type: array
+                items: 
+                  type: string
