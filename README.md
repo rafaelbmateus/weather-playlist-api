@@ -13,6 +13,15 @@ either city name or lat long coordinates and returns a playlist suggestion accor
 
 # Get Started
 
+Create `.env` from `.env.sample` using `cp .env.sample .env`
+and changes with your credentials:
+
+```sh
+OPEN_WEATHER_APP_ID = b77e07f479efe92156376a8b07640ced
+SPOTIFY_CLIENT_ID = dsahda83as77h1287asasd128das23es
+SPOTIFY_CLIENT_SECRET = sa8r2hdas8dash18dsh1812has8213ds
+```
+
 To run the project localhost you can follow these commands:
 
 ```sh
